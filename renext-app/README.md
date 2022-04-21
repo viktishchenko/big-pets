@@ -162,3 +162,16 @@ npm i -D cross-env
 ![start next project](./readmeAssets/run_debug.jpg)
 
 </details>
+
+<details>
+<summary>
+react base
+</summary>
+
+![react components](./readmeAssets/ract_component.jpg)
+
+![react components life cycle](./readmeAssets/life_cycle.jpg)
+
+</details>
+
+- [add language component →](./pages/_document.tsx)
