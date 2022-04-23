@@ -103,17 +103,26 @@ add stylelint
 </summary>
 
 ```javascript
-npm i -D stylelint stylelint-config-standard stylelint-order
+npm i -D stylelint stylelint-config-standard stylelint-order stylelint-config-rational-order
 ```
 
 .stylelint.json
 
 ```javascript
 {
-  "extends": ["stylelint-config-standard"],
-  "plugins": ["stylelint-order"],
+  "extends": [
+	  "stylelint-config-standard",
+	    "stylelint-config-rational-order"
+	],
+  "plugins": ["stylelint-order",
+    "stylelint-config-rational-order/plugin"],
   "rules": {
-    "indentation": ["tab"],
+	      "order/properties-order": [],
+    "plugin/rational-order": [true, {
+      "border-in-box-model": false,
+      "empty-line-between-groups": false
+    }],
+    "indentation": [2],
     "color-hex-case": "upper",
     "selector-class-pattern": "^.*$",
     "declaration-block-no-redundant-longhand-properties": [
@@ -124,6 +133,7 @@ npm i -D stylelint stylelint-config-standard stylelint-order
     ]
   }
 }
+
 ```
 
 </details>
