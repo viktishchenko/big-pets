@@ -184,4 +184,38 @@ react base
 
 </details>
 
-- [add language component →](./pages/_document.tsx)
+- [add language →](./pages/_document.tsx)
+
+- [add first component →](./components/Htag/)
+
+<details>
+<summary>
+add classnanes @types
+</summary>
+
+```javascript
+npm i -D @types/classnames
+```
+
+</details>
+
+<details>
+<summary>
+react hooks
+</summary>
+
+![react hooks](./readmeAssets/react_hooks.jpg)
+
+![why functional components better way](./readmeAssets/why_hooks_better.jpg)
+
+![main hooks](./readmeAssets/react_hooks_main.jpg)
+
+![use state](./readmeAssets/use_state.jpg)
+
+![use state example](./readmeAssets/use_state_comp_example.jpg)
+
+![use state update](./readmeAssets/use_state_upd.jpg)
+
+![use state lazy init](./readmeAssets/use_state_lazy_init.jpg)
+
+</details>
