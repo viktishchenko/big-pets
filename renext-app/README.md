@@ -194,8 +194,31 @@ add classnanes @types
 </summary>
 
 ```javascript
-npm i -D @types/classnames
+npm i -D @types/classnames // cn()
 ```
+
+</details>
+<details>
+<summary>
+add button ts HTML property types 
+</summary>
+
+```javascript
+import { ButtonHTMLAttributes, DetailedHTMLProps, ReactNode } from "react";
+
+export interface ButtonProps
+  extends DetailedHTMLProps<
+    ButtonHTMLAttributes<HTMLButtonElement>,
+    HTMLButtonElement
+  > {
+  children: ReactNode;
+  appearance: "primary" | "ghost";
+}
+```
+
+look at this beauty (╯°□°）╯︵ ┻━┻
+
+![ts HTML property types](./readmeAssets/property_types.jpg)
 
 </details>
 
