@@ -27,4 +27,5 @@ a {
   --green-light: #c8f8e4;
   --bg: #f5f6f8;
   --font-family: "Noto Sans", sans-serif;
+  --transition: all, 0.2s;
 }

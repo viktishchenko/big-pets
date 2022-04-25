@@ -198,6 +198,7 @@ npm i -D @types/classnames // cn()
 ```
 
 </details>
+
 <details>
 <summary>
 add button ts HTML property types 
@@ -213,12 +214,38 @@ export interface ButtonProps
   > {
   children: ReactNode;
   appearance: "primary" | "ghost";
+  // with optional parametr ? arrow
+  arrow?: "right" | "down" | "none";
 }
 ```
 
 look at this beauty (╯°□°）╯︵ ┻━┻
 
 ![ts HTML property types](./readmeAssets/property_types.jpg)
+
+</details>
+
+<details>
+<summary>
+add svg module
+</summary>
+
+```javascript
+npm i -D @svgr/webpack
+```
+
+`Parsing error : Cannot find module 'next/babel'`
+
+to fix this issue: modify eslint.config.json
+
+```javascript
+{
+	"extends": [
+		"next/babel", // add this ext
+		"next/core-web-vitals"
+	]
+}
+```
 
 </details>
 

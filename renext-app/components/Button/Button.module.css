@@ -7,7 +7,7 @@
   border: none;
   border-radius: 5px;
   font-size: 14px;
-  transition: all 0.2s;
+  transition: var(--transition);
 }
 
 .primary {
@@ -28,4 +28,18 @@
 
 .ghost:hover {
   background: var(--gray-light);
+}
+
+.arrow {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.down {
+  transform: rotate(90deg);
+  transition: var(--transition);
+}
+
+.primary svg {
+  fill: var(--white);
 }
