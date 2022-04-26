@@ -249,6 +249,8 @@ to fix this issue: modify eslint.config.json
 
 </details>
 
+- [add tag component →](./components/Tag/)
+
 <details>
 <summary>
 react hooks
