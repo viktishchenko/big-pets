@@ -1,8 +1,34 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Button, Htag, P, Tag } from '../components'
 
 export default function Home(): JSX.Element {
-	const [counter, setCounter] = useState(0)
+	const [counter, setCounter] = useState(0);
+
+
+   /**
+   *
+   * 	 useEffect(() => {
+   *		console.log("Counter " + counter);
+   *		return function cleanup() {
+   *		console.log("Unmount");
+   *		};
+   *	});
+   *
+   * ---res---
+   *
+   *  Unmount
+   *  Counter 1
+   *
+   */
+   
+   	 useEffect(() => {
+   		console.log("Counter " + counter);
+   		return function cleanup() {
+   		console.log("Unmount");
+   		};
+   	},[]); // Counter 0
+   
+   
   return (
 	<>
 		<Htag tag='h1' >{counter}</Htag>
