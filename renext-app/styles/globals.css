@@ -17,15 +17,15 @@ a {
 }
 
 :root {
-  --black: #3b434e;
-  --gray-light: #ebebeb;
+  --black: #3B434E;
+  --gray-light: #EBEBEB;
   --white: white;
-  --primary: #7653fc;
-  --primary-hover: #6b4edf;
-  --red: #fc836d;
-  --green: #1dc37e;
-  --green-light: #c8f8e4;
-  --bg: #f5f6f8;
+  --primary: #7653FC;
+  --primary-hover: #6B4EDF;
+  --red: #FC836D;
+  --green: #1DC37E;
+  --green-light: #C8F8E4;
+  --bg: #F5F6F8;
   --font-family: "Noto Sans", sans-serif;
   --transition: all, 0.2s;
 }

@@ -103,7 +103,7 @@ add stylelint
 </summary>
 
 ```javascript
-npm i -D stylelint stylelint-config-standard stylelint-order stylelint-config-rational-order
+npm i -D stylelint stylelint-config-standard stylelint-order stylelint-config-rational-order-fix
 ```
 
 .stylelint.json
@@ -112,16 +112,10 @@ npm i -D stylelint stylelint-config-standard stylelint-order stylelint-config-ra
 {
   "extends": [
 	  "stylelint-config-standard",
-	    "stylelint-config-rational-order"
+	  "stylelint-config-rational-order-fix"
 	],
-  "plugins": ["stylelint-order",
-    "stylelint-config-rational-order/plugin"],
+  "plugins": ["stylelint-order"],
   "rules": {
-	      "order/properties-order": [],
-    "plugin/rational-order": [true, {
-      "border-in-box-model": false,
-      "empty-line-between-groups": false
-    }],
     "indentation": [2],
     "color-hex-case": "upper",
     "selector-class-pattern": "^.*$",
@@ -305,6 +299,26 @@ import { Button, Htag, P, Tag } from "../components";
 
 export default function Home(): JSX.Element {
   const [counter, setCounter] = useState(0);
+
+  /**
+   * Хуки должны вызываться на
+   * верхнем уровне, это может
+   * проверить специальный плагин:
+   */
+
+  /**
+   * npm i -D eslint-plugin-react-hooks
+   * ДОБАВИЛ ЭТО РАСШИРЕНИЕ НО ОНО НЕХУА
+   * НЕ РАБОТАЕТ
+   * 
+   *   if (counter > 0) {
+   *   useEffect(() => {
+   *   console.log("yepp");
+   *   console.log("Counter " + counter);
+   *   });
+  }
+   * 
+   */
 
   /**
    *
