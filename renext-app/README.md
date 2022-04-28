@@ -412,8 +412,13 @@ HOC
 </summary>
 
 ![HOC](./readmeAssets/hoc.jpg)
+
 ![HOC example](./readmeAssets/hoc_example.jpg)
+
 ![HOC example with types](./readmeAssets/hoc_with_types.jpg)
+
 ![HOC rules](./readmeAssets/hoc_rules.jpg)
+
+![HOC example view](./readmeAssets/hoc_like_view.jpg)
 
 </details>
