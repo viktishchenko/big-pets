@@ -4,4 +4,9 @@
 
 .star {
   margin-right: 5px;
+  transition: var(--transition);
+}
+
+.editable {
+  cursor: pointer;
 }

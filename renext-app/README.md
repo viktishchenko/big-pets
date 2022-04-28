@@ -376,9 +376,32 @@ export default function Home(): JSX.Element {
 
 </details>
 
+---
+
+[unworking images.d.ts module →](./images.d.ts) `//no type hints`
+
+---
+
 <details>
 <summary>
 rating componenet
 </summary>
+
+[more info →](./components/Rating/)
+
+```javascript
+import { useState } from "react";
+import { Rating } from "../components";
+
+export default function Home(): JSX.Element {
+  const [rating, setRating] = useState(4);
+
+  return (
+    <>
+      <Rating rating={rating} isEditable setRating={setRating} />
+    </>
+  );
+}
+```
 
 </details>
