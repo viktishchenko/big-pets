@@ -421,4 +421,7 @@ HOC
 
 ![HOC example view](./readmeAssets/hoc_like_view.jpg)
 
+[look at that HOC →](./layout/Layout.tsx)
+[and this, how it's work →](./pages/index.tsx)
+
 </details>
