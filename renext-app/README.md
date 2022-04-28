@@ -375,3 +375,10 @@ export default function Home(): JSX.Element {
 ![useEffect render other](./readmeAssets/useEffect_render_other.jpg)
 
 </details>
+
+<details>
+<summary>
+rating componenet
+</summary>
+
+</details>

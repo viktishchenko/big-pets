@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Button, Htag, P, Tag } from "../components";
+import { Button, Htag, P, Rating, Tag } from "../components";
 
 export default function Home(): JSX.Element {
   const [counter, setCounter] = useState(0);
@@ -33,6 +33,7 @@ export default function Home(): JSX.Element {
       <Tag color="green">Green</Tag>
       <Tag color="gray">Gray</Tag>
       <Tag color="primary">Primary</Tag>
+      <Rating rating={4} />
     </>
   );
 }
