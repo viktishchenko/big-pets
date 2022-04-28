@@ -405,3 +405,15 @@ export default function Home(): JSX.Element {
 ```
 
 </details>
+
+<details>
+<summary>
+HOC
+</summary>
+
+![HOC](./readmeAssets/hoc.jpg)
+![HOC example](./readmeAssets/hoc_example.jpg)
+![HOC example with types](./readmeAssets/hoc_with_types.jpg)
+![HOC rules](./readmeAssets/hoc_rules.jpg)
+
+</details>
