@@ -425,3 +425,20 @@ HOC
 [and this, how it's work →](./pages/index.tsx)
 
 </details>
+
+<details>
+<summary>
+grid with e.g.
+</summary>
+
+![align justify memorization](./readmeAssets/align_memo.jpg)
+
+[template und gap 0 →](../grid-eg/main0.css)
+
+[align und justify 1 →](../grid-eg/main1.css)
+
+[cell distribution 2 →](../grid-eg/main2.css)
+
+[template aria 3 →](../grid-eg/main3.css)
+
+</details>

@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(107.32deg, #804bd8 5.53%, #544ad8 97.3%);
+}
+
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-auto-rows: 100px;
+  /* dense - впихун */
+  grid-auto-flow: dense;
+}
+
+.container > div {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border: 2px solid #fe7a71;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.c1 {
+  grid-column: 2/4;
+  /* grid-column-start: 1; */
+  /* grid-column-end: 3; */
+  /* grid-column-end: span 3; */
+}
