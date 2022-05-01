@@ -444,4 +444,14 @@ grid with e.g.
 
 [grid template | areas 3 →](../grid-eg/main3.css)
 
+---
+
+## best practice??
+
+![grid & column](./readmeAssets/column.jpg)
+
+![naming columns & areas](./readmeAssets/naming_column.jpg)
+
+![use fractions](./readmeAssets/fractions.jpg)
+
 </details>
