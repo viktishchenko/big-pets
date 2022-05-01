@@ -429,6 +429,7 @@ HOC
 <details>
 <summary>
 grid with e.g.
+
 </summary>
 
 ![align justify memorization](./readmeAssets/align_memo.jpg)
@@ -439,6 +440,8 @@ grid with e.g.
 
 [cell distribution 2 →](../grid-eg/main2.css)
 
-[template aria 3 →](../grid-eg/main3.css)
+[grid playground →](https://www.cssgridplayground.com/)
+
+[grid template | areas 3 →](../grid-eg/main3.css)
 
 </details>
