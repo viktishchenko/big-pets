@@ -455,3 +455,12 @@ grid with e.g.
 ![use fractions](./readmeAssets/fractions.jpg)
 
 </details>
+
+<details>
+<summary>
+add basic layout
+</summary>
+
+![basic layout](./readmeAssets/basic_layout.jpg)
+
+</details>
