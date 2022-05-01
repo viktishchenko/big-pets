@@ -464,3 +464,19 @@ add basic layout
 ![basic layout](./readmeAssets/basic_layout.jpg)
 
 </details>
+
+<details>
+<summary>
+main layout
+</summary>
+
+## add time lib
+
+```javascript
+
+npm i date-fns
+```
+
+![add footer](./readmeAssets/add_footer.jpg)
+
+</details>
