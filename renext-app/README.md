@@ -553,4 +553,8 @@ nextjs ssr
 
 ![extra options ssr](./readmeAssets/extra_options_ssr.jpg)
 
+[getStaticProps e.g. →](./pages/index.tsx)
+
+[layout with menu from backend](./readmeAssets/layout_with_backendMenu_ssr.jpg)
+
 </details>
