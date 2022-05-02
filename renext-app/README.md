@@ -498,9 +498,26 @@ ssr
 
 ![env with test](./readmeAssets/env_with_test.jpg)
 
-```javascript
+## browser rendering
 
-npm i date-fns
-```
+![browser rendering](./readmeAssets/browser_render.jpg)
+
+![browser rendering with spa](./readmeAssets/br_ren_spa.jpg)
+
+![ssr vs csr](./readmeAssets/ssr_vs_csr.jpg)
+
+![hydration ssr](./readmeAssets/hydration_ssr.jpg)
+
+![weak side ssr](./readmeAssets/weak_side_ssr.jpg)
+
+![strong side ssr](./readmeAssets/strong_side_ssr.jpg)
+
+![seo_comparison](./readmeAssets/seo_comparison.jpg)
+
+![what dicide nextjs](./readmeAssets/what_dicide_nextjs.jpg)
+
+![performance comparison](./readmeAssets/performance_comparison.jpg)
+
+![metric comparison](./readmeAssets/metric_comparison.jpg)
 
 </details>
