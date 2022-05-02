@@ -521,3 +521,36 @@ ssr
 ![metric comparison](./readmeAssets/metric_comparison.jpg)
 
 </details>
+
+<details>
+<summary>
+nextjs ssr
+</summary>
+
+## prerender
+
+![prerender](./readmeAssets/prerender.jpg)
+
+![ssr function](./readmeAssets/ssr_function.jpg)
+
+![getstaticprops](./readmeAssets/getstaticprops.jpg)
+
+![getstaticprops e.g.](./readmeAssets/getstatic_eg.jpg)
+
+![extra options](./readmeAssets/extra_options.jpg)
+
+![return params](./readmeAssets/return_params.jpg)
+
+![incremental static generate](./readmeAssets/incremental_static_generate.jpg)
+
+![get static path](./readmeAssets/getstaticpath.jpg)
+
+![get static path func](./readmeAssets/getstaticpath_func.jpg)
+
+![true ssr](./readmeAssets/true_ssr.jpg)
+
+![ssr props](./readmeAssets/ssr_props.jpg)
+
+![extra options ssr](./readmeAssets/extra_options_ssr.jpg)
+
+</details>
