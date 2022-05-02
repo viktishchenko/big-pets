@@ -480,3 +480,27 @@ npm i date-fns
 ![add footer](./readmeAssets/add_footer.jpg)
 
 </details>
+
+<details>
+<summary>
+ssr
+</summary>
+
+## env var
+
+![environment variables](./readmeAssets/env_var.jpg)
+
+![link to var](./readmeAssets/link_to_var.jpg)
+
+![env global](./readmeAssets/env_global.jpg)
+
+![env availability](./readmeAssets/var_availability.jpg)
+
+![env with test](./readmeAssets/env_with_test.jpg)
+
+```javascript
+
+npm i date-fns
+```
+
+</details>
