@@ -555,6 +555,10 @@ nextjs ssr
 
 [getStaticProps e.g. →](./pages/index.tsx)
 
-[layout with menu from backend](./readmeAssets/layout_with_backendMenu_ssr.jpg)
+![layout with menu from backend](./readmeAssets/layout_with_backendMenu_ssr.jpg)
+
+[getStaticPaths e.g. →](./pages/courses/%5Balias%5D.tsx)
+
+![getStaticPaths e.g. →](./readmeAssets/getStaticPaths_eg.jpg)
 
 </details>
