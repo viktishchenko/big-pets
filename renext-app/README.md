@@ -581,3 +581,12 @@ useContext
 [useContext with e.g. →](./context/app.context.tsx)
 
 </details>
+
+<details>
+<summary>
+basic menu
+</summary>
+
+![basic menu](./readmeAssets/basic_menu.jpg)
+
+</details>
