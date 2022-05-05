@@ -562,3 +562,22 @@ nextjs ssr
 ![getStaticPaths e.g. →](./readmeAssets/getStaticPaths_eg.jpg)
 
 </details>
+
+<details>
+<summary>
+useContext
+</summary>
+
+![useContext hook](./readmeAssets/data_transfer.jpg)
+
+![context creation](./readmeAssets/context_creation.jpg)
+
+![provider creation](./readmeAssets/provider_creation.jpg)
+
+![context usage](./readmeAssets/context_usage.jpg)
+
+![additional features](./readmeAssets/additional_features.jpg)
+
+[useContext with e.g. →](./context/app.context.tsx)
+
+</details>
