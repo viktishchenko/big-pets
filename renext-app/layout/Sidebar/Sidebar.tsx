@@ -3,9 +3,9 @@ import styles from "./Sidebar.module.css";
 import cn from "classnames";
 import { Menu } from "../Menu/Menu";
 
-export const Sidebar = ({ ...props }: SidebarProps): JSX.Element => {
+export const Sidebar = ({ className, ...props }: SidebarProps): JSX.Element => {
   return (
-    <div {...props}>
+    <div className={cn(className, styles.sidebar)} {...props}>
       <Menu />
     </div>
   );

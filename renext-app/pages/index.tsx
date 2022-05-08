@@ -15,7 +15,7 @@ function Home({ menu }: HomeProps): JSX.Element {
 
   return (
     <>
-      <Htag tag="h1">Заголовок {counter}</Htag>
+      <Htag tag="h1">Заголовок 1 {counter}</Htag>
       <Button
         onClick={() => {
           setCounter((x) => x + 1);
