@@ -620,3 +620,12 @@ sidebar layout
 ![sidebar layout](./readmeAssets/sidebar_layout.jpg)
 
 </details>
+
+<details>
+<summary>
+page component
+</summary>
+
+[page component →](./page-components/TopPageComponent/)
+
+</details>
