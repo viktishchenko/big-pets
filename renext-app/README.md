@@ -611,3 +611,12 @@ link component
 ![Router structure](./readmeAssets/useRouter_structure.jpg)
 
 </details>
+
+<details>
+<summary>
+sidebar layout
+</summary>
+
+![sidebar layout](./readmeAssets/sidebar_layout.jpg)
+
+</details>

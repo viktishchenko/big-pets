@@ -21,6 +21,7 @@
 
 .body {
   grid-area: body;
+  outline: none;
 }
 
 .footer {
@@ -34,13 +35,13 @@
       "header"
       "body"
       "footer";
+    gap: 10px;
   }
 
   .sidebar {
-    display: none;
+    display: none !important;
   }
-
-  .header {
-    display: block;
+  .body {
+    padding: 15px;
   }
 }
