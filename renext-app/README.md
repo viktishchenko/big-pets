@@ -628,4 +628,8 @@ page component
 
 [page component →](./page-components/TopPageComponent/)
 
+![page layout](./readmeAssets/page_layout.jpg)
+
+[page layout →](./components/HhData/)
+
 </details>
