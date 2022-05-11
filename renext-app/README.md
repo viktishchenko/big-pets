@@ -632,4 +632,6 @@ page component
 
 [page layout →](./components/HhData/)
 
+![full page layout](./readmeAssets/full_page_layout.jpg)
+
 </details>
