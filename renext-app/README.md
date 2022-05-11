@@ -645,6 +645,8 @@ useReducer description
 
 ![useReducer usage ](./readmeAssets/useReducer_usage.jpg)
 
-[useReducer component →](./components/Sort/)
+[useReducer →](./page-components/TopPageComponent/TopPageComponent.tsx)[component →](./components/Sort/)[logic →](./page-components/TopPageComponent/sort.reducer.ts)
+
+![sorting layout ](./readmeAssets/sorting_layout.jpg)
 
 </details>
