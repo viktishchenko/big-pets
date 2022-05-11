@@ -635,3 +635,16 @@ page component
 ![full page layout](./readmeAssets/full_page_layout.jpg)
 
 </details>
+
+<details>
+<summary>
+useReducer description
+</summary>
+
+![useReducer description ](./readmeAssets/useReducer_desc.jpg)
+
+![useReducer usage ](./readmeAssets/useReducer_usage.jpg)
+
+[useReducer component →](./components/Sort/)
+
+</details>
