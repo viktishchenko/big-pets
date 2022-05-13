@@ -593,7 +593,7 @@ basic menu
 
 <details>
 <summary>
-link component
+link component useRouter hook
 </summary>
 
 ![link component](./readmeAssets/link_component.jpg)
@@ -648,5 +648,15 @@ useReducer description
 [useReducer →](./page-components/TopPageComponent/TopPageComponent.tsx)[component →](./components/Sort/)[logic →](./page-components/TopPageComponent/sort.reducer.ts)
 
 ![sorting layout ](./readmeAssets/sorting_layout.jpg)
+
+</details>
+
+<details>
+<summary>
+searchbar
+</summary>
+
+[search bar →](./components/Search/)
+![search bar](./readmeAssets/searchbar.jpg)
 
 </details>
