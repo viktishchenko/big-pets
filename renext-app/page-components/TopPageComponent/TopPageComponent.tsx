@@ -31,7 +31,7 @@ export const TopPageComponent = ({
   return (
     <div className={styles.wrapper}>
       <div className={styles.title}>
-        <Htag tag="h1">{page.title}</Htag>
+        <Htag tag="h1">{page && page.title}</Htag>
         {products && (
           <Tag color="gray" size="m">
             {products.length}

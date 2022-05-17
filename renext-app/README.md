@@ -657,6 +657,18 @@ searchbar
 </summary>
 
 [search bar →](./components/Search/)
+
 ![search bar](./readmeAssets/searchbar.jpg)
+
+</details>
+
+<details>
+<summary>
+product component grid
+</summary>
+
+[product grid →](./components/Product/)
+
+![product component grid](./readmeAssets/product_grid.jpg)
 
 </details>
