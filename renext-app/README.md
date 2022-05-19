@@ -732,3 +732,12 @@ import Image from "next/image";
 ```
 
 </details>
+
+<details>
+<summary>
+product layout adaptive
+</summary>
+
+![product adaptive](./readmeAssets/product_adaptive.jpg)
+
+</details>
