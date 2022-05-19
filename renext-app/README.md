@@ -673,8 +673,12 @@ product component grid
 
 ---
 
-### add component style
+### [add component style](./components/Product/)
 
 ![add component style](./readmeAssets/component_style.jpg)
+
+### [add more](./components/Product/)
+
+![add more component style](./readmeAssets/more_styles.jpg)
 
 </details>

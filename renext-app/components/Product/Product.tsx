@@ -49,7 +49,15 @@ export const Product = ({
       </div>
       <Divider className={styles.hr} />
       <div className={styles.description}>{product.description}</div>
-      <div className={styles.feature}>фичи</div>
+      <div className={styles.feature}>
+        {product.characteristics.map((c) => (
+          <div className={styles.characteristics} key={c.name}>
+            <span className={styles.characteristicsName}>{c.name}</span>
+            <span className={styles.characteristicsDots}></span>
+            <span className={styles.characteristicsValue}>{c.value}</span>
+          </div>
+        ))}
+      </div>
       <div className={styles.advBlock}>
         {product.advantages && (
           <div className={styles.advantages}>
@@ -64,20 +72,6 @@ export const Product = ({
           </div>
         )}
       </div>
-      {/* <div className={styles.advBlock}>
-        {product.advantages && (
-          <div className={styles.advantages}>
-            <div className={styles.advTitle}>Преимущества</div>
-            <div>{product.advantages}</div>
-          </div>
-        )}
-        {product.disadvantages && (
-          <div className={styles.disadvantages}>
-            <div className={styles.advTitle}>Недостатки</div>
-            <div>{product.disadvantages}</div>
-          </div>
-        )}
-      </div> */}
       <Divider className={styles.hr} />
       <div className={styles.actions}>
         <Button appearance="primary">Узнать подробнее</Button>
