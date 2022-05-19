@@ -682,3 +682,53 @@ product component grid
 ![add more component style](./readmeAssets/more_styles.jpg)
 
 </details>
+
+<details>
+<summary>
+image component
+</summary>
+
+![image component](./readmeAssets/image_component.jpg)
+
+![layout types](./readmeAssets/img_layout.jpg)
+
+![custom loader](./readmeAssets/custom_loader.jpg)
+
+![quality config](./readmeAssets/quality_config.jpg)
+
+---
+
+### does not work ... (╯°□°）╯︵ ┻━┻
+
+[next.config.js](./next.config.js)
+
+```javascript
+module.exports = {
+  images: {
+    domains: ["courses-top.ru"],
+  },
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ["@svgr/webpack"],
+    });
+
+    return config;
+  },
+};
+```
+
+Product.tsx image module
+
+```javascript
+import Image from "next/image";
+
+<Image
+  src={process.env.NEXT_PUBLIC_DOMAIN + product.image}
+  alt={product.title}
+  width={70}
+  height={70}
+/>;
+```
+
+</details>

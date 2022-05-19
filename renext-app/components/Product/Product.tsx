@@ -1,6 +1,5 @@
 import { ProductProps } from "./Product.props";
 import styles from "./Product.module.css";
-import cn from "classnames";
 import { Card, Rating, Tag, Button, Divider } from "..";
 import { declOfNum, priceRu } from "../../helpers/helpers";
 
