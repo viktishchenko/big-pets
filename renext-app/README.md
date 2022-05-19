@@ -671,4 +671,10 @@ product component grid
 
 ![product component grid](./readmeAssets/product_grid.jpg)
 
+---
+
+### add component style
+
+![add component style](./readmeAssets/component_style.jpg)
+
 </details>
