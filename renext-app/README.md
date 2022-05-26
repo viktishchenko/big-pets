@@ -741,3 +741,12 @@ product layout adaptive
 ![product adaptive](./readmeAssets/product_adaptive.jpg)
 
 </details>
+
+<details>
+<summary>
+review layout adaptive
+</summary>
+
+![review layout](./readmeAssets/review_style.jpg)
+
+</details>

@@ -62,7 +62,7 @@
 }
 
 .category {
-  margin-top: 7px;
+  margin: 7px 0;
 }
 
 .price,
@@ -143,6 +143,22 @@
   margin-bottom: 9px;
 }
 
+.closed {
+  overflow: hidden;
+  max-height: 0;
+  padding: 0;
+}
+
+.opened {
+  overflow: hidden;
+  height: auto;
+  padding: 30px;
+}
+
+.reviews {
+  overflow: hidden;
+}
+
 @media screen and (max-width: 1320px) {
   .product {
     display: grid;
@@ -220,6 +236,16 @@
 
   .actions {
     grid-area: actions;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .product {
+    grid-template-columns: 70px 30px auto 30px auto 30px 1fr;
+  }
+  .price,
+  .credit {
+    font-size: inherit;
   }
 }
 

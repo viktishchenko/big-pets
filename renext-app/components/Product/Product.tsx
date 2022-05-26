@@ -1,14 +1,17 @@
 import { ProductProps } from "./Product.props";
 import styles from "./Product.module.css";
 import cn from "classnames";
-import { Card, Rating, Tag, Button, Divider } from "..";
+import { Card, Rating, Tag, Button, Divider, Review } from "..";
 import { declOfNum, priceRu } from "../../helpers/helpers";
+import { useState } from "react";
 
 export const Product = ({
   product,
   className,
   ...props
 }: ProductProps): JSX.Element => {
+  const [isReviewOpened, setIsReviewOpened] = useState<boolean>(false);
+
   return (
     <>
       <Card className={styles.product}>
@@ -79,15 +82,24 @@ export const Product = ({
           <Button
             className={styles.reviewBtn}
             appearance="ghost"
-            arrow={"right"}
+            arrow={isReviewOpened ? "down" : "right"}
+            onClick={() => setIsReviewOpened(!isReviewOpened)}
           >
             Читать отзывы
           </Button>
         </div>
       </Card>
-      {/* <Card className={styles.st} color="blue">
-        <div>card blue</div>
-      </Card> */}
+      <Card
+        className={cn(styles.reviews, {
+          [styles.opened]: isReviewOpened,
+          [styles.closed]: !isReviewOpened,
+        })}
+        color="blue"
+      >
+        {product.reviews.map((r) => (
+          <Review key={r._id} review={r} />
+        ))}
+      </Card>
     </>
   );
 };
