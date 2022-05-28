@@ -749,4 +749,6 @@ review layout adaptive
 
 ![review layout](./readmeAssets/review_style.jpg)
 
+![review layout plus](./readmeAssets/review_component.jpg)
+
 </details>

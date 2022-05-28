@@ -1,13 +1,5 @@
 import { useReducer } from "react";
-import {
-  Advantages,
-  HhData,
-  Htag,
-  P,
-  Product,
-  Sort,
-  Tag,
-} from "../../components";
+import { Advantages, HhData, Htag, Product, Sort, Tag } from "../../components";
 import { SortEnum } from "../../components/Sort/Sort.props";
 import { TopLevelCategory } from "../../interfaces/page.interface";
 import { sortReducer } from "./sort.reducer";

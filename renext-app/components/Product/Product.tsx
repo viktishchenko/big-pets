@@ -4,6 +4,7 @@ import cn from "classnames";
 import { Card, Rating, Tag, Button, Divider, Review } from "..";
 import { declOfNum, priceRu } from "../../helpers/helpers";
 import { useState } from "react";
+import { ReviewForm } from "../ReviewForm/ReviewForm";
 
 export const Product = ({
   product,
@@ -97,8 +98,12 @@ export const Product = ({
         color="blue"
       >
         {product.reviews.map((r) => (
-          <Review key={r._id} review={r} />
+          <>
+            <Review key={r._id} review={r} />
+            <Divider />
+          </>
         ))}
+        <ReviewForm productId={product._id} />
       </Card>
     </>
   );
