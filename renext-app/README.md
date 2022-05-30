@@ -752,3 +752,50 @@ review layout adaptive
 ![review layout plus](./readmeAssets/review_component.jpg)
 
 </details>
+
+<details>
+<summary>
+useForm lib concept
+</summary>
+
+![useForm basic concept](./readmeAssets/useForm_concept.jpg)
+
+![useForm handler](./readmeAssets/useForm_handler.jpg)
+
+![form components](./readmeAssets/form_components.jpg)
+
+![form libraries](./readmeAssets/form_lib.jpg)
+
+![useForm api](./readmeAssets/useForm_api.jpg)
+
+![non managed component](./readmeAssets/non_managed_compt.jpg)
+
+![managed component](./readmeAssets/managed_compt.jpg)
+
+---
+
+usage
+
+```javascript
+
+npm i react-hook-form
+
+```
+
+[see detales →](./components/ReviewForm/)
+
+</details>
+
+<details>
+<summary>
+<span style='color:red'>warning : refs components</span> (проброс ref)
+
+</summary>
+
+![ref elem](./readmeAssets/ref_elem.jpg)
+
+![ref usage](./readmeAssets/ref_usage.jpg)
+
+![ref warning fix](./readmeAssets/ref_war_fix.jpg)
+
+</details>
