@@ -799,3 +799,18 @@ npm i react-hook-form
 ![ref warning fix](./readmeAssets/ref_war_fix.jpg)
 
 </details>
+
+<details>
+<summary>
+error processing
+</summary>
+
+[detales rating →](./components/Rating/)
+
+[detales input →](./components/Input/)
+
+[detales textarea →](./components/Textarea/)
+
+![error handler](./readmeAssets/error_handler.jpg)
+
+</details>
