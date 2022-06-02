@@ -814,3 +814,12 @@ error processing
 ![error handler](./readmeAssets/error_handler.jpg)
 
 </details>
+
+<details>
+<summary>
+add common link file
+</summary>
+
+[common helpers file →](./helpers/api.ts)
+
+</details>
