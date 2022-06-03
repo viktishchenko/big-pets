@@ -823,3 +823,13 @@ add common link file
 [common helpers file →](./helpers/api.ts)
 
 </details>
+
+<details>
+<summary>
+form submit logic
+</summary>
+
+[form submit logic →](./components/ReviewForm/)
+![form submit logic](./readmeAssets/form_submit_logic.jpg)
+
+</details>

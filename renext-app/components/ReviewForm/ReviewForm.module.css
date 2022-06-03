@@ -31,11 +31,22 @@
   gap: 20px;
 }
 
-.success {
-  background: var(--green-light);
+.panel {
   padding: 20px;
   position: relative;
   margin-top: 20px;
+}
+
+.error {
+  background: var(--red-light);
+}
+
+.success {
+  background: var(--green-light);
+}
+
+.error .close path {
+  stroke: var(--red);
 }
 
 .successTitle {
