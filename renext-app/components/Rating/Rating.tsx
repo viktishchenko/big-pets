@@ -25,7 +25,6 @@ export const Rating = forwardRef(
 
     const constructRating = (currentRating: number) => {
       const updateArray = ratingArray.map((r: JSX.Element, i: number) => {
-        console.log(isEditable);
         return (
           <span
             className={cn(styles.star, {

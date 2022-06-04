@@ -24,13 +24,12 @@ export const ReviewForm = ({
 
   const [isSucsess, setIsSucsess] = useState<boolean>(false);
   const [isError, setIsError] = useState<string>();
-  console.log("Boolean(isError) :>> ", Boolean(isError));
 
   const onSubmit = async (formData: IReviewForm) => {
     try {
       const { data } = await axios.post<IReviewSentResponse>(
-        API.review.createDemo
-        // { ...formData, productId }
+        API.review.createDemo,
+        { ...formData, productId }
       );
       if (data.message) {
         setIsSucsess(true);

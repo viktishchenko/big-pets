@@ -833,3 +833,13 @@ form submit logic
 ![form submit logic](./readmeAssets/form_submit_logic.jpg)
 
 </details>
+
+<details>
+<summary>
+useRef hook
+</summary>
+
+[useRef hook usage →](./components/Product/Product.tsx)
+![useRef hook usage](./readmeAssets/useref_hook.jpg)
+
+</details>

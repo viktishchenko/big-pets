@@ -7,6 +7,10 @@
   padding: 30px;
 }
 
+.cardwrapper {
+  display: block;
+}
+
 .logo {
   grid-column: start / logoend;
   grid-row: 1 / span 2;
@@ -97,6 +101,11 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 19px;
+}
+
+.ratingTitle a:hover {
+  display: block;
+  color: var(--primary);
 }
 
 .reviewBtn {
