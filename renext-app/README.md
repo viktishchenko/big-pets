@@ -843,3 +843,31 @@ useRef hook
 ![useRef hook usage](./readmeAssets/useref_hook.jpg)
 
 </details>
+
+---
+
+<details>
+<summary>
+react animation libs
+</summary>
+
+![react animation libs](./readmeAssets/react_animation_libs.jpg)
+
+![framer advantage](./readmeAssets/framer_advantage.jpg.jpg)
+
+![satrt animation](./readmeAssets/start_animation.jpg)
+
+![key frame animation](./readmeAssets/key_frame_animation.jpg)
+
+![animation variation](./readmeAssets/anim_variation.jpg)
+
+![animation variation for child element](./readmeAssets/animation_for_child_elem.jpg)
+
+![layout animation](./readmeAssets/layout_animation.jpg)
+
+```javascript
+
+npm i framer-motion
+```
+
+</details>
