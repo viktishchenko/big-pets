@@ -1,4 +1,4 @@
-import { useReducer } from "react";
+import { useEffect, useReducer } from "react";
 import { Advantages, HhData, Htag, Product, Sort, Tag } from "../../components";
 import { SortEnum } from "../../components/Sort/Sort.props";
 import { TopLevelCategory } from "../../interfaces/page.interface";
@@ -19,6 +19,10 @@ export const TopPageComponent = ({
   const setSort = (sort: SortEnum) => {
     dispachSort({ type: sort });
   };
+
+  useEffect(() => {
+    dispachSort({ type: "reset", initialState: products });
+  }, [products]);
 
   return (
     <div className={styles.wrapper}>
