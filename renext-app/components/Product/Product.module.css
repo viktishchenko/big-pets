@@ -166,6 +166,7 @@
 
 .reviews {
   overflow: hidden;
+  /* transition: var(--transition); */
 }
 
 @media screen and (max-width: 1320px) {
