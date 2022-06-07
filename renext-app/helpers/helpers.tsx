@@ -42,7 +42,7 @@ export const declOfNum = (
   number: number,
   titles: [string, string, string]
 ): string => {
-  const cases = [2, 3, 1, 1, 1, 2];
+  const cases = [2, 0, 1, 1, 1, 2];
   return titles[
     number % 100 > 4 && number % 100 < 20
       ? 2

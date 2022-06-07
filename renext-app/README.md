@@ -871,3 +871,13 @@ npm i framer-motion
 ```
 
 </details>
+
+<details>
+<summary>
+add custom scroll hook
+</summary>
+
+for `to top` button
+[useScroll custom hook →](./hooks/useScrollY.ts)
+
+</details>
