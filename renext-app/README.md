@@ -894,6 +894,7 @@ dinamic button icon
 </summary>
 
 `to top`, `menu`, `close` buttons
+
 [how it's work →](./components/ButtonIcon//ButtonIcon.tsx)
 
 ### типизируем по ключам
@@ -919,5 +920,14 @@ export interface ButtonIconProps extends DetailedHTMLProps<ButtonHTMLAttributes<
 }
 
 ```
+
+</details>
+
+<details>
+<summary>
+add mobile menu
+</summary>
+
+![mobile menu](./readmeAssets/mobile_menu.jpg)
 
 </details>
