@@ -887,3 +887,37 @@ for `to top` button
 ![scroll to top button](./readmeAssets/scroll_to_top.jpg)
 
 </details>
+
+<details>
+<summary>
+dinamic button icon
+</summary>
+
+`to top`, `menu`, `close` buttons
+[how it's work →](./components/ButtonIcon//ButtonIcon.tsx)
+
+### типизируем по ключам
+
+```javascript
+
+import { ButtonHTMLAttributes, DetailedHTMLProps, ReactNode } from 'react';
+import up from './up.svg'
+import close from './close.svg'
+import menu from './menu.svg'
+
+export const icons = {
+	up,
+	close,
+	menu
+}
+
+export type IconName = keyof typeof icons;
+
+export interface ButtonIconProps extends DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>,HTMLButtonElement> {
+	appearance: 'primary'| 'white',
+	icon: IconName // type IconName = "menu" | "up" | "close"
+}
+
+```
+
+</details>
