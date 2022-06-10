@@ -104,24 +104,24 @@ export const Product = motion(
               </Button>
             </div>
           </Card>
-          <motion.div layout>
-            <Card
-              className={cn(styles.reviews, {
-                [styles.opened]: isReviewOpened,
-                [styles.closed]: !isReviewOpened,
-              })}
-              color="blue"
-              ref={reviewRef}
-            >
-              {product.reviews.map((r) => (
-                <div key={r._id}>
-                  <Review review={r} />
-                  <Divider />
-                </div>
-              ))}
-              <ReviewForm productId={product._id} />
-            </Card>
-          </motion.div>
+          {/* <motion.div layout> */}
+          <Card
+            className={cn(styles.reviews, {
+              [styles.opened]: isReviewOpened,
+              [styles.closed]: !isReviewOpened,
+            })}
+            color="blue"
+            ref={reviewRef}
+          >
+            {product.reviews.map((r) => (
+              <div key={r._id}>
+                <Review review={r} />
+                <Divider />
+              </div>
+            ))}
+            <ReviewForm productId={product._id} />
+          </Card>
+          {/* </motion.div> */}
         </div>
       );
     }

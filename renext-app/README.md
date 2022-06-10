@@ -931,3 +931,80 @@ add mobile menu
 ![mobile menu](./readmeAssets/mobile_menu.jpg)
 
 </details>
+
+<details>
+<summary>
+типизация для motion.button
+</summary>
+
+`button.tsx`
+
+```javascript
+import styles from "./Button.module.css";
+import { ButtonProps } from "./Button.props";
+import ArrowIcon from "./arrow.svg";
+import cn from "classnames";
+
+export const Button = ({
+  appearance,
+  arrow = "none",
+  children,
+  className,
+  ...props
+}: ButtonProps): JSX.Element => {
+  return (
+    <motion.button // ts conflict → add new type
+      whileHover={{ scale: 1.05 }}
+      className={cn(styles.button, className, {
+        [styles.primary]: appearance === "primary",
+        [styles.ghost]: appearance === "ghost",
+      })}
+      {...props}
+    >
+      {children}
+      {arrow !== "none" && (
+        <span
+          className={cn(styles.arrow, {
+            [styles.down]: arrow === "down",
+          })}
+        >
+          <ArrowIcon />
+        </span>
+      )}
+    </motion.button>
+  );
+};
+```
+
+`button.props.ts`
+
+```javascript
+import { ButtonHTMLAttributes, DetailedHTMLProps, ReactNode } from "react";
+
+// (omit) → пропуск свойств из типизации тайпскрипта
+
+export interface ButtonProps
+  extends Omit<
+    DetailedHTMLProps<
+      ButtonHTMLAttributes<HTMLButtonElement>,
+      HTMLButtonElement
+    >,
+    "onAnimationStart" | "onDragStart" | "onDragEnd" | "onDrag" | "ref"
+  > {
+  children: ReactNode;
+  appearance: "primary" | "ghost";
+  arrow?: "right" | "down" | "none";
+}
+```
+
+</details>
+<details>
+<summary>
+accessibility (доступность)
+</summary>
+
+![accessibility](./readmeAssets/accessibility.jpg)
+
+![accessibility check](./readmeAssets/lighthouse_check.jpg)
+
+</details>
