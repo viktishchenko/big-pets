@@ -1007,4 +1007,6 @@ accessibility (доступность)
 
 ![accessibility check](./readmeAssets/lighthouse_check.jpg)
 
+[keyboard accessibility →](./layout/Menu/Menu.tsx)
+
 </details>

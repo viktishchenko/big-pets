@@ -3,7 +3,7 @@ import styles from "./Search.module.css";
 import cn from "classnames";
 import { Input } from "..";
 import { Button } from "..";
-import { useState } from "react";
+import { useState, KeyboardEvent } from "react";
 import GlassIcon from "./glass.svg";
 import { useRouter } from "next/router";
 
@@ -34,7 +34,7 @@ export const Search = ({ className, ...props }: SearchProps): JSX.Element => {
         placeholder="Поиск..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        onKeyDown={goToSearch}
+        onKeyDown={handleKeyDown}
       />
       <Button
         appearance="primary"
