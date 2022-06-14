@@ -998,9 +998,11 @@ export interface ButtonProps
 ```
 
 </details>
+
 <details>
 <summary>
-accessibility (доступность)
+accessibility menu + main content
+(доступность меню + переход на контент)
 </summary>
 
 ![accessibility](./readmeAssets/accessibility.jpg)
@@ -1008,5 +1010,17 @@ accessibility (доступность)
 ![accessibility check](./readmeAssets/lighthouse_check.jpg)
 
 [keyboard accessibility →](./layout/Menu/Menu.tsx)
+
+</details>
+
+<details>
+<summary>
+accessibility form
+(доступность форм)
+</summary>
+
+![form accessibility](./readmeAssets/form_accessibility.jpg)
+
+[form accessibility →](https://github.com/viktishchenko/big-pets/commit/223f65237080d088887e31691c1df6127953f5af)
 
 </details>
