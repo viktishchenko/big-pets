@@ -19,6 +19,10 @@
   white-space: nowrap;
 }
 
+.sortName {
+  display: none;
+}
+
 .sort button {
   display: grid;
   gap: 8px;

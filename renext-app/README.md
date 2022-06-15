@@ -1171,3 +1171,99 @@ it's look like this...
 ![results](./readmeAssets/aria_example.jpg)
 
 </details>
+
+<details>
+<summary>
+screen reader & aria-label & aria-labelledby
+</summary>
+
+[Screen reader chrome extension →](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en)
+
+---
+
+aria label vs aria-labelledby
+
+![difference](./readmeAssets/aria_diff.jpg)
+
+before
+
+```javascript
+export const Sort = ({
+  sort,
+  setSort,
+  className,
+  ...props
+}: SortProps): JSX.Element => {
+  return (
+    <div className={cn(styles.sort, className)} {...props}>
+      <button
+        onClick={() => setSort(SortEnum.Rating)}
+        className={cn({
+          [styles.active]: sort === SortEnum.Rating,
+        })}
+      >
+        <SortIcon className={styles.sortIcon} />
+        По рейтингу
+      </button>
+      <button
+        onClick={() => setSort(SortEnum.Price)}
+        className={cn({
+          [styles.active]: sort === SortEnum.Price,
+        })}
+      >
+        <SortIcon className={styles.sortIcon} />
+        По цене
+      </button>
+    </div>
+  );
+};
+```
+
+after
+
+```javascript
+export const Sort = ({
+  sort,
+  setSort,
+  className,
+  ...props
+}: SortProps): JSX.Element => {
+  return (
+    <div className={cn(styles.sort, className)} {...props}>
+      <div className={styles.sortName} id="sort">
+        Сортировка
+      </div>
+      <button
+        id="rating"
+        onClick={() => setSort(SortEnum.Rating)}
+        className={cn({
+          [styles.active]: sort === SortEnum.Rating,
+        })}
+        aria-selected={sort === SortEnum.Rating}
+        aria-labelledby="sort rating"
+      >
+        <SortIcon className={styles.sortIcon} />
+        По рейтингу
+      </button>
+      <button
+        id="price"
+        onClick={() => setSort(SortEnum.Price)}
+        className={cn({
+          [styles.active]: sort === SortEnum.Price,
+        })}
+        aria-selected={sort === SortEnum.Price}
+        aria-labelledby="sort price"
+      >
+        <SortIcon className={styles.sortIcon} />
+        По цене
+      </button>
+    </div>
+  );
+};
+```
+
+---
+
+[this commit →](https://github.com/viktishchenko/big-pets/commit/6f5ea2f104b81e4d1ada781ad59fcc81c89c2c0c)
+
+</details>
