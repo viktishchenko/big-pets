@@ -1267,3 +1267,14 @@ export const Sort = ({
 [this commit →](https://github.com/viktishchenko/big-pets/commit/6f5ea2f104b81e4d1ada781ad59fcc81c89c2c0c)
 
 </details>
+
+<details>
+<summary>
+aria-hidden
+</summary>
+
+![aria-hidden](./readmeAssets/aria_hidden.jpg)
+
+[this commit →](https://github.com/viktishchenko/big-pets/commit/5b1cf343919520e826d2aef5362cb8fdf02a0185)
+
+</details>
