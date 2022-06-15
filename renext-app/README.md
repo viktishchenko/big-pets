@@ -1003,6 +1003,8 @@ export interface ButtonProps
 <summary>
 accessibility menu + main content
 (доступность меню + переход на контент)
+[spectrum](https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en) - цветовая приблуда для хрома
+
 </summary>
 
 ![accessibility](./readmeAssets/accessibility.jpg)
@@ -1276,5 +1278,22 @@ aria-hidden
 ![aria-hidden](./readmeAssets/aria_hidden.jpg)
 
 [this commit →](https://github.com/viktishchenko/big-pets/commit/5b1cf343919520e826d2aef5362cb8fdf02a0185)
+
+</details>
+
+<details>
+<summary>
+landmark roles
+</summary>
+
+[form role="search"](./components/Search/Search.tsx)
+
+[main role="main"](./layout/Layout.tsx)
+
+[menu role="navigation"](./layout/Menu//Menu.tsx)
+
+[btn aria-expanded](./components/Product/Product.tsx) ( читать отзывы кнопка свёрнута/развёрнута)
+
+[aria-invalid](./components/ReviewForm/ReviewForm.tsx) ( ридер воспроизводит ошибки ввода)
 
 </details>
