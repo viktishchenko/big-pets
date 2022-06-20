@@ -1,18 +1,17 @@
 .reviewForm {
-  font-size: 14px;
-  line-height: 24px;
-
   display: grid;
   grid-template-columns: [start] auto 1fr auto [end];
   gap: 20px 30px;
-  justify-items: left;
   align-items: center;
+  justify-items: left;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .formTitle {
   grid-column: start / end;
-  font-size: 18px;
   margin: 10px 0;
+  font-size: 18px;
 }
 
 .description,
@@ -32,9 +31,9 @@
 }
 
 .panel {
-  padding: 20px;
   position: relative;
   margin-top: 20px;
+  padding: 20px;
 }
 
 .error {
@@ -66,6 +65,7 @@
     grid-template-columns: [start] auto 1fr [end];
     justify-items: normal;
   }
+
   .rating {
     grid-column: start / end;
   }

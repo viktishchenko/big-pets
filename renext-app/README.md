@@ -1354,3 +1354,44 @@ add ymetrica
 ```
 
 </details>
+
+<details>
+<summary>
+add husky
+</summary>
+
+### Автоматизатор гита, позволяет добавлять события, например на 'commit'
+
+```javascript
+
+npm i husky
+
+```
+
+`package.json`
+
+```javascript
+
+	"scripts": {
+		"prepare": "cd .. && husky install renext-app/.husky",
+	},
+
+```
+
+```javascript
+
+npm run prepare
+
+// add pre-commit file
+
+npx husky add .husky/pre-commit "npm test"
+
+//  add to pre-commit file
+
+"npm run stylelint" instead of "npm test" und cnange dir: "cd renext-app"
+
+```
+
+[like this](https://github.com/viktishchenko/big-pets/blob/master/renext-app/.husky/pre-commit)
+
+</details>

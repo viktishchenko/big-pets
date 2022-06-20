@@ -1,12 +1,12 @@
 .footer {
-  background: var(--primary);
-  grid-template-columns: 1fr auto auto;
   display: grid;
-  padding: 25px 30px;
+  grid-template-columns: 1fr auto auto;
   gap: 15px 40px;
+  padding: 25px 30px;
   color: var(--white);
   font-size: 16px;
   line-height: 20px;
+  background: var(--primary);
 }
 
 .footer a:hover {

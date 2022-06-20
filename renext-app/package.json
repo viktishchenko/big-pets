@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+	"prepare": "cd .. && husky install renext-app/.husky",
     "dev": "next dev",
     "debug": "cross-env NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
@@ -31,6 +32,7 @@
     "eslint": "8.13.0",
     "eslint-config-next": "12.1.5",
     "eslint-plugin-react-hooks": "^4.5.0",
+    "husky": "^8.0.1",
     "stylelint": "^14.7.1",
     "stylelint-config-rational-order-fix": "^0.1.9",
     "stylelint-config-standard": "^25.0.0",

@@ -12,16 +12,16 @@
 }
 
 .logo {
-  grid-column: start / logoend;
   grid-row: 1 / span 2;
+  grid-column: start / logoend;
 }
 
 .logo img {
+  display: block;
   max-width: 70px;
-  border: 1px solid #f2f2f2;
   max-height: 70px;
   overflow: hidden;
-  display: block;
+  border: 1px solid #F2F2F2;
   border-radius: 5px;
 }
 
@@ -59,10 +59,10 @@
 }
 
 .title {
+  align-self: flex-end;
   font-weight: 600;
   font-size: 20px;
   line-height: 27px;
-  align-self: flex-end;
 }
 
 .category {
@@ -71,9 +71,9 @@
 
 .price,
 .credit {
+  align-self: flex-end;
   font-size: 20px;
   line-height: 27px;
-  align-self: flex-end;
 }
 
 .month {
@@ -90,9 +90,9 @@
 }
 
 .description {
+  margin-bottom: 15px;
   font-size: 16px;
   line-height: 24px;
-  margin-bottom: 15px;
 }
 
 .priceTitle,
@@ -113,34 +113,34 @@
 }
 
 .advBlock {
+  grid-column: middle / end;
   font-size: 16px;
   line-height: 22px;
-  grid-column: middle / end;
 }
 
 .advTitle {
-  font-weight: bold;
   margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .advantages {
-  border-left: 2px solid #1dc37e;
-  padding-left: 15px;
   margin-bottom: 20px;
+  padding-left: 15px;
+  border-left: 2px solid #1DC37E;
 }
 
 .disadvantages {
-  border-left: 2px solid var(--red);
   padding-left: 15px;
+  border-left: 2px solid var(--red);
 }
 
 .characteristics {
   display: grid;
   grid-template-columns: auto 1fr auto;
+  gap: 10px;
   padding-right: 60px;
   font-size: 16px;
   line-height: 32px;
-  gap: 10px;
 }
 
 .characteristicsName {
@@ -148,31 +148,31 @@
 }
 
 .characteristicsDots {
-  border-bottom: 1px dashed var(--gray-light);
   margin-bottom: 9px;
+  border-bottom: 1px dashed var(--gray-light);
 }
 
 .closed {
-  overflow: hidden;
   max-height: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .opened {
-  overflow: hidden;
   height: auto;
   padding: 30px;
+  overflow: hidden;
 }
 
 .reviews {
   overflow: hidden;
+
   /* transition: var(--transition); */
 }
 
 @media screen and (max-width: 1320px) {
   .product {
     display: grid;
-    grid-template-columns: 70px 30px auto 40px auto 40px 1fr;
     grid-template-areas:
       "logo . title title title title title"
       "logo . tags tags tags tags tags"
@@ -184,6 +184,7 @@
       "advBlock advBlock advBlock advBlock advBlock advBlock advBlock"
       "hr2 hr2 hr2 hr2 hr2 hr2 hr2"
       "actions actions actions actions actions actions actions";
+    grid-template-columns: 70px 30px auto 40px auto 40px 1fr;
   }
 
   .logo {
@@ -253,6 +254,7 @@
   .product {
     grid-template-columns: 70px 30px auto 30px auto 30px 1fr;
   }
+
   .price,
   .credit {
     font-size: inherit;
@@ -261,7 +263,6 @@
 
 @media screen and (max-width: 640px) {
   .product {
-    grid-template-columns: 70px 30px 1fr;
     grid-template-areas:
       "logo . title"
       "logo . tags"
@@ -274,6 +275,7 @@
       "advBlock advBlock advBlock"
       "hr2 hr2 hr2"
       "actions actions actions";
+    grid-template-columns: 70px 30px 1fr;
   }
 
   .price {
@@ -291,8 +293,6 @@
 
 @media screen and (max-width: 480px) {
   .product {
-    padding: 10px;
-    grid-template-columns: 1fr;
     grid-template-areas:
       "logo"
       "title"
@@ -309,14 +309,17 @@
       "advBlock"
       "hr2"
       "actions";
+    grid-template-columns: 1fr;
+    padding: 10px;
   }
 }
 
 @media screen and (max-width: 350px) {
   .reviewBtn {
-    margin-left: 0;
     margin-top: 10px;
+    margin-left: 0;
   }
+
   .opened {
     padding: 10px;
   }

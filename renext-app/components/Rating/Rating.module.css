@@ -24,8 +24,8 @@
 
 .ratingMessage {
   position: absolute;
-  left: -20px;
   bottom: -25px;
-  white-space: nowrap;
+  left: -20px;
   color: var(--red);
+  white-space: nowrap;
 }
