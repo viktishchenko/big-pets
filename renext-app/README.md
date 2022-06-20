@@ -1300,4 +1300,6 @@ landmark roles
 
 [aria-expanded aria-current](./layout/Menu/Menu.tsx)
 
+[alternatinve to native semantics](./page-components/TopPageComponent/TopPageComponent.tsx)
+
 </details>
