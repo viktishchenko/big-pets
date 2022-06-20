@@ -1296,4 +1296,8 @@ landmark roles
 
 [aria-invalid](./components/ReviewForm/ReviewForm.tsx) ( ридер воспроизводит ошибки ввода)
 
+[ role="alert"](./components/ReviewForm/ReviewForm.tsx) (ридет воспроизводит текст оповещения)
+
+[aria-expanded aria-current](./layout/Menu/Menu.tsx)
+
 </details>
