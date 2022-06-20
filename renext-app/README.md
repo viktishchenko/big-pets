@@ -1303,3 +1303,54 @@ landmark roles
 [alternatinve to native semantics](./page-components/TopPageComponent/TopPageComponent.tsx)
 
 </details>
+
+<details>
+<summary>
+add meta
+</summary>
+
+[meta commit](https://github.com/viktishchenko/big-pets/commit/30d246551964c35822c20b12bff5f3f6403113c5)
+
+</details>
+
+<details>
+<summary>
+add ymetrica
+</summary>
+
+```javascript
+
+// npm i react-yandex-metrika
+
+
+  router.events.on("routeChangeComplete", (url: string) => {
+    if (typeof window !== undefined) {
+      ym("hit", url);
+    }
+  });
+  return (
+    <>
+      <Head>
+        <title>DrTop - best shmule</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://mc.yandex.ru" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap"
+          rel="stylesheet"
+        />
+        <meta
+          property="og:url"
+          content={process.env.NEXT_PUBLIC_DOMAIN + router.asPath}
+        />
+        <meta property="og:local" content="ru_RU" />
+      </Head>
+      <YMInitializer
+        accounts={[]}
+		options={{webvisor: true, defer: true}}
+		version="2"
+      />
+```
+
+</details>
