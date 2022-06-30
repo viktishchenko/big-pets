@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-	"prepare": "cd .. && husky install renext-app/.husky",
     "dev": "next dev",
+    "export": "next export",
     "debug": "cross-env NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",

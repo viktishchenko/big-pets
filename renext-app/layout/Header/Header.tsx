@@ -25,7 +25,7 @@ export const Header = ({ className, ...props }: HeaderProps): JSX.Element => {
       },
     },
     closed: {
-      opcity: 0,
+      opacity: 0,
       x: "100%",
     },
   };

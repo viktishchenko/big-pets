@@ -1390,6 +1390,8 @@ npx husky add .husky/pre-commit "npm test"
 
 "npm run stylelint" instead of "npm test" und cnange dir: "cd renext-app"
 
+	// "prepare": "cd .. && husky install renext-app/.husky",
+
 ```
 
 [like this](https://github.com/viktishchenko/big-pets/blob/master/renext-app/.husky/pre-commit)
