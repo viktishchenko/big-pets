@@ -1408,6 +1408,9 @@ production build
 npm run build
 
 npm run start
+
+// docker ps - выводит все запущенные контейнеры
+// docker-compose up -d - запускаем контейнер (-d) отключает нас от контейнера (не дает логов)
 ```
 
 </details>
