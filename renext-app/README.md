@@ -1397,3 +1397,17 @@ npx husky add .husky/pre-commit "npm test"
 [like this](https://github.com/viktishchenko/big-pets/blob/master/renext-app/.husky/pre-commit)
 
 </details>
+
+<details>
+<summsry>
+production build
+</summsry>
+
+```javascript
+
+npm run build
+
+npm run start
+```
+
+</details>
