@@ -35,3 +35,16 @@ client query
 ![client query](back/readmeAssets/server_endpoint_query.png)
 
 </details>
+
+<details>
+<summary>
+init
+</summary>
+
+    npm init -y
+    npm i express pg pg-hstore sequelize cors dotenv
+    npm i -D nodemon
+
+install postgresql/create db
+
+</details>

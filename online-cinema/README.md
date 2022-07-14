@@ -33,6 +33,7 @@ initial settings
 4. set .prettierrc (semi, quote, ect.)
 5. restart eslint server
 6. check app / npm run start or npm run dev (with watch mode)
+
    ![check_response](back/readmeAssets/check_response.png)
 
 ---
