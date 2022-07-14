@@ -35,8 +35,16 @@ initial settings
 6. check app / npm run start or npm run dev (with watch mode)
    ![check_response](back/readmeAssets/check_response.png)
 
-```javascript
+---
 
-```
+add .env [file](./back/.env)
+add npm i @nestjs/config
+add npm i @typegoose/typegoose
+add npm i mongoose
+add npm i @nestjs/mongoose
+add npm i @types-monguse -f // ?
+add npm i @nestjs/jwt -f
+
+### add config folder with JWT & Mongo [config](./back/src/config/)
 
 </details>
