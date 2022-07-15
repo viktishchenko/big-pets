@@ -66,4 +66,8 @@ add diagrams
 
 ![check router](back/readmeAssets/router_check.png)
 
+### check controllers
+
+![check controllers](back/readmeAssets/check_controllers.png)
+
 </details>
