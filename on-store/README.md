@@ -70,4 +70,8 @@ add diagrams
 
 ![check controllers](back/readmeAssets/check_controllers.png)
 
+### check middleware
+
+![check middleware](back/readmeAssets/check_middleware.png)
+
 </details>
