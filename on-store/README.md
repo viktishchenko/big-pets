@@ -24,9 +24,6 @@ Front
 - react-router-dom (навигация)
 - mobx (стейт менеджер)
 
-диаграмма баз данных(8таблиц)
-авторизация JWT
-Rest API
 endpoint methods
 ![server endpoint](back/readmeAssets/server_endpoint.png)
 server endpoint func
@@ -46,5 +43,19 @@ init
     npm i -D nodemon
 
 install postgresql/create db
+
+</details>
+
+<details>
+<summary>
+add diagrams
+</summary>
+
+[draw.io](https://app.diagrams.net/)
+![schema database](back/readmeAssets/tables_graph.png)
+
+### add tables
+
+![add tables](back/readmeAssets/add_tables.png)
 
 </details>
