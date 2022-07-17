@@ -51,7 +51,12 @@ install postgresql/create db
 add diagrams
 </summary>
 
+---
+
 [draw.io](https://app.diagrams.net/)
+
+---
+
 ![schema database](back/readmeAssets/tables_graph.png)
 
 ### add tables
@@ -73,5 +78,19 @@ add diagrams
 ### check middleware
 
 ![check middleware](back/readmeAssets/check_middleware.png)
+
+</details>
+
+<details>
+<summary>
+add obj to DB
+</summary>
+
+![add object to DB](back/readmeAssets/add_to_DB.png)
+![add object to DB2](back/readmeAssets/add_to_DB2.png)
+
+---
+
+[this commit](https://github.com/viktishchenko/big-pets/commit/f4391c06bc0317ef118b674d00ff11ac470008dd)
 
 </details>
