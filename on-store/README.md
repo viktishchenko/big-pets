@@ -94,3 +94,19 @@ add obj to DB
 [this commit](https://github.com/viktishchenko/big-pets/commit/f4391c06bc0317ef118b674d00ff11ac470008dd)
 
 </details>
+
+<details>
+<summary>
+get from to DB
+</summary>
+
+![get from DB](back/readmeAssets/get_from_DB.png)
+
+---
+
+[this file](./back/controllers/typeController.js)
+
+![add object to DB](back/readmeAssets/add_obj_to_DB.png)
+![get obj from DB](back/readmeAssets/get_from_DB2.png)
+
+</details>
