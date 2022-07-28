@@ -125,8 +125,12 @@ get from to DB
 
 ![add static file(img) to DB](back/readmeAssets/add_img_to_DB.png)
 
-[filter items by brandId & typeId](./back/controllers/deviceController.js)
+[filter items by brandId & typeId →](./back/controllers/deviceController.js)
 
 ![filter item by brandId](back/readmeAssets/get_item_by_brandId.png)
+
+[page limit with DB →](./back/controllers/deviceController.js)
+
+![add page limit with DB](back/readmeAssets/page_limit_with_DB.png)
 
 </details>
