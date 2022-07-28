@@ -31,6 +31,11 @@ server endpoint func
 client query
 ![client query](back/readmeAssets/server_endpoint_query.png)
 
+[code](https://github.com/utimur/online-store-full-course)
+[video](https://www.youtube.com/watch?v=H2GCkRF9eko)
+
+alt + shift + a // multiline comments
+
 </details>
 
 <details>
@@ -108,5 +113,16 @@ get from to DB
 
 ![add object to DB](back/readmeAssets/add_obj_to_DB.png)
 ![get obj from DB](back/readmeAssets/get_from_DB2.png)
+
+---
+
+    npm i express-fileupload
+    npm i uuid
+
+---
+
+### add/get static file to DB
+
+![add static file(img) to DB](back/readmeAssets/add_img_to_DB.png)
 
 </details>
