@@ -133,4 +133,8 @@ get from to DB
 
 ![add page limit with DB](back/readmeAssets/page_limit_with_DB.png)
 
+[page limit with DB und count →](./back/controllers/deviceController.js)
+
+![page limit with DB and count](back/readmeAssets/page_limit_with_DB_undCount.png)
+
 </details>
