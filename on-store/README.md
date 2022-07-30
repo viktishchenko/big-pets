@@ -168,4 +168,14 @@ true
 
 ![check login true](back/readmeAssets/check_login_true.png)
 
+### check user auth
+
+false
+
+![check user auth](back/readmeAssets/check_user_auth.png)
+
+true
+
+![check user auth](back/readmeAssets/auth_check.png)
+
 </details>
