@@ -178,4 +178,22 @@ true
 
 ![check user auth](back/readmeAssets/auth_check.png)
 
+### check ADMIN
+
+false
+
+![check ADMIN](back/readmeAssets/check_auth_false.png)
+
+false
+
+![check ADMIN](back/readmeAssets/check_auth_token_false.png)
+
+add ADMIN
+
+![add admin](back/readmeAssets/add_admin.png)
+
+hooray ADMIN
+
+![add admin true](back/readmeAssets/check_auth_token_true.png)
+
 </details>
