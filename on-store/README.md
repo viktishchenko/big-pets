@@ -154,4 +154,18 @@ Auth
 [get token →](./back/controllers/userController.js)
 ![grt token](back/readmeAssets/get_token.png)
 
+### check userName & password
+
+![check pass & user name](back/readmeAssets/check_userName_und_password.png)
+
+### check login
+
+false
+
+![check login false](back/readmeAssets/check_login.png)
+
+true
+
+![check login true](back/readmeAssets/check_login_true.png)
+
 </details>
