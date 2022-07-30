@@ -142,3 +142,16 @@ get from to DB
 ![add device info](back/readmeAssets/device_info.png)
 
 </details>
+
+<details>
+
+<summary>
+Auth
+</summary>
+
+    npm i jsonwebtoken bcrypt
+
+[get token →](./back/controllers/userController.js)
+![grt token](back/readmeAssets/get_token.png)
+
+</details>
