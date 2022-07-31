@@ -197,3 +197,17 @@ hooray ADMIN
 ![add admin true](back/readmeAssets/check_auth_token_true.png)
 
 </details>
+
+<details>
+
+<summary>
+front
+</summary>
+
+    npx create-react-app .
+    npm i react-router-dom mobx mobx-react-lite
+    npm install react-bootstrap bootstrap
+
+![start front](front/readmeAssets/start_front.png)
+
+</details>
