@@ -211,3 +211,13 @@ front
 ![start front](front/readmeAssets/start_front.png)
 
 </details>
+
+<details>
+
+<summary>
+add routes, other stuff
+</summary>
+
+![add bootstrap](front/readmeAssets/add_bootstrap.png)
+
+</details>
