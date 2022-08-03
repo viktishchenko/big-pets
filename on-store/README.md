@@ -218,6 +218,12 @@ front
 add routes, other stuff
 </summary>
 
+add bootstrap
+
 ![add bootstrap](front/readmeAssets/add_bootstrap.png)
+
+add auth [logic →](./front/src/components/NavBar.js)
+
+![add auth logic](front/readmeAssets/add_auth_logic.png)
 
 </details>
