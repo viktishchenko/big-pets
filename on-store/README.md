@@ -215,7 +215,7 @@ front
 <details>
 
 <summary>
-add routes, other stuff
+add routes, auth, reg, other stuff
 </summary>
 
 add bootstrap
@@ -225,5 +225,9 @@ add bootstrap
 add auth [logic →](./front/src/components/NavBar.js)
 
 ![add auth logic](front/readmeAssets/add_auth_logic.png)
+
+auth, registration [logic →](./front/src/pages/Auth.js)
+
+![add auth logic](front/readmeAssets/auth_reg_logic.png)
 
 </details>

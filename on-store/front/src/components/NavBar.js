@@ -1,9 +1,9 @@
 /* Alt + Shift + A , rafce, @ts-check*/
 import { Button } from "react-bootstrap";
 import React, { useContext } from "react";
-import Container from "react-bootstrap/esm/Container";
-import Nav from "react-bootstrap/esm/Nav";
-import Navbar from "react-bootstrap/esm/Navbar";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
 import { Context } from "../index";
 import { SHOP_ROUTE } from "../utils/consts";
@@ -24,7 +24,9 @@ const NavBar = observer(() => {
         {user.isAuth ? (
           <Nav className="ml-auto" style={{ color: "white" }}>
             <Button variant={"outline-light"}>Админ панель</Button>
-            <Button variant={"outline-light"}>Войти</Button>
+            <Button variant={"outline-light"} className="ms-2">
+              Войти
+            </Button>
           </Nav>
         ) : (
           <Nav className="ml-auto" style={{ color: "white" }}>
