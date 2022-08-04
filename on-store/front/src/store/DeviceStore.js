@@ -1,5 +1,10 @@
 import { makeAutoObservable } from "mobx";
 
+/* mobx следит за состоянинм объектов
+данного списка и возвращает его
+https://www.youtube.com/watch?v=jn-L1SFYdIc
+*/
+
 export default class DeviceStore {
   constructor() {
     this._types = [
@@ -45,6 +50,8 @@ export default class DeviceStore {
       },
     ];
 
+    this._selectedType = {};
+
     makeAutoObservable(this);
   }
 
@@ -58,6 +65,10 @@ export default class DeviceStore {
 
   setDevices(devices) {
     this._devices = devices;
+  }
+
+  setSelectedType(type) {
+    this._selectedType = type;
   }
 
   get types() {

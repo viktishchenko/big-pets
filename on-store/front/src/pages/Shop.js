@@ -1,9 +1,21 @@
 /* rafce */
+//@ts-check//
 
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import TypeBar from "../components/TypeBar";
 
 const Shop = () => {
-  return <div>Shop page</div>;
+  return (
+    <Container>
+      <Row className="mt-2">
+        <Col md={3}>
+          <TypeBar />
+        </Col>
+        <Col md={9}>md9</Col>
+      </Row>
+    </Container>
+  );
 };
 
 export default Shop;

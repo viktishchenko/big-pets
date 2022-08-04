@@ -230,4 +230,8 @@ auth, registration [logic →](./front/src/pages/Auth.js)
 
 ![add auth logic](front/readmeAssets/auth_reg_logic.png)
 
+add [typeBar →](./front/src/components/TypeBar.js)
+
+![add typebar](front/readmeAssets/typeBar.png)
+
 </details>
