@@ -234,4 +234,8 @@ add [typeBar →](./front/src/components/TypeBar.js)
 
 ![add typebar](front/readmeAssets/typeBar.png)
 
+add [brandBar →](./front/src/components/BrandBar.js)
+
+![add typebar](front/readmeAssets/brandBar.png)
+
 </details>
