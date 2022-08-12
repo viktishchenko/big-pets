@@ -33,6 +33,7 @@ client query
 
 [code](https://github.com/utimur/online-store-full-course)
 [video](https://www.youtube.com/watch?v=H2GCkRF9eko)
+[figma](https://www.figma.com/file/nutWUOANZdJ7gnBazQBLie/Untitled?node-id=1%3A157)
 
 alt + shift + a // multiline comments
 
@@ -237,5 +238,9 @@ add [typeBar →](./front/src/components/TypeBar.js)
 add [brandBar →](./front/src/components/BrandBar.js)
 
 ![add typebar](front/readmeAssets/brandBar.png)
+
+add [deviceLists](./front/src/components/DeviceList.js)[&Item →](./front/src/components/DeviceItem.js)
+
+![add typebar](front/readmeAssets/store_item.png)
 
 </details>
