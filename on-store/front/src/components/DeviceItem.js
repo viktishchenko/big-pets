@@ -1,9 +1,12 @@
 //@ts-check//
 import React from "react";
 import { Card, Col, Image } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import star from "../assets/star.svg";
 
 const DeviceItem = ({ device }) => {
+  const history = useNavigate();
+  console.log("history>>", history);
   return (
     <Col md={3} className={"mt-3"}>
       <Card style={{ width: 150, cursor: "pointer" }} border={"light"}>
